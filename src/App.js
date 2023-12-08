@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js"
+import Navbar from "./Components/Navbar";
+import Marted from "./Components/Marted";
+import Card_section from "./Components/Card_section";
+import Roadmap from "./Components/Roadmap";
+import Accordion from "./Components/Accordion";
+import OurTema from "./Components/OurTema";
+import Footer from "./Components/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    return ( <
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        <
+        Navbar / > < Marted / >
+        <
+        Card_section / >
+        <
+        Roadmap / >
+        <
+        Accordion / >
+        <
+        OurTema / >
+        <
+        Footer / >
+        <
+        />
+    );
 }
 
 export default App;
